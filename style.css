@@ -26,21 +26,16 @@ Letter spacing
 
 --- 02 COLORS
 
-Primary:#e67e22
+Primary:#5454D4
 
-Shades:#cf711f
-#45260a;
+Shades:
+;
 Tints:
-#fdf2e9 
-#fae5d3
-#eb984e
+
 Accents:
 Grays:
-#888
-#767676 lighest fray allowed on this one #fff 
-#6f6f6f lighest fray allowed on this one #fdf2e9 
-#555
-#333
+#696871
+
 
 
 --- 05 SHADOWS
@@ -112,7 +107,7 @@ body {
 }
 .main-nav-link:link,
 .main-nav-link:visited {
-  color: #999;
+  color: #696871;
   text-decoration: none;
   font-size: 1.6rem;
 }
@@ -187,4 +182,36 @@ body {
 }
 .feature-icon {
   height: 3.2rem;
+}
+
+/* ************************ */
+/* SECTION-CONTENT */
+/* ************************ */
+
+.section-content {
+  margin-top: 9.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 8rem;
+}
+.content-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.content-header {
+  font-size: 5rem;
+}
+.content-text {
+  font-size: 2rem;
+  color: #696871;
+  line-height: 3rem;
+}
+.content-link:link,
+.content-link:visited {
+  color: #5454d4;
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: 600;
 }
