@@ -244,3 +244,45 @@ body {
   text-align: center;
   line-height: 1.75;
 }
+/* ************************ */
+/* SECTION-Plan */
+/* ************************ */
+.section-plan {
+  margin-top: 9.6rem;
+}
+.plan-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: end;
+}
+.plan-text-header {
+  font-size: 6rem;
+}
+.button-container {
+  border: 0.5rem solid #f7f7fb;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.btn-container {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+  background-color: #f7f7fb;
+  text-decoration: none;
+}
+.btn-container-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn-container-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.plan-btn-active {
+  background-color: #5454d4;
+}
+a.plan-btn-active {
+  color: #fff;
+}
